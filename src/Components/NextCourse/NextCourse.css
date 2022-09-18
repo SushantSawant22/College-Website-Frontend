@@ -1,0 +1,32 @@
+.new_course{
+ margin-bottom: 100px;
+}
+
+.new_course .col-sm-5 .box{
+    padding: 20px;
+    background: #ccc;
+    text-align: center;
+    margin: 20px;
+}
+
+.new_course .col-sm-5 .box h6{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.new_course ,col-sm-5 .box h5{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.new_course .box:hover{
+    background: var(--main);
+    color: #000;
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+.new_course ,col-sm-5 .box p{
+    font-size: 20px;
+    
+}

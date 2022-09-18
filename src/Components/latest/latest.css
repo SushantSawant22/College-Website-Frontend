@@ -1,0 +1,38 @@
+.latest{
+    margin-bottom: 100px;
+}
+
+.latest .box{
+    background-color: #ccc;
+    box-shadow: var(--box_shadow);
+}
+
+.latest .boxcontent{
+    padding: 10px;
+}
+
+.latest .boxcontent h6{
+    color: rgb(0,128,255);
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: underline;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.latest .boxcontent h5{
+    font-size: 20px;
+    font-weight: 900;
+    margin: 15px auto ;
+}
+
+.latest .img_fluid{
+    height: 200px;
+    width: 100%;
+}
+
+.latest .box:hover{
+    transform: scale(1.05);
+
+
+}
